@@ -1,3 +1,26 @@
+About this fork: Slurm contains modifications of Slurm 14-03-8-1
+-------------------------------------------------------
+
+- Branch woas: Implementation of WoAS a Workflow Aware scheduling tehcnique to reduce workflow turnaround time. Technique from the HPDC'17 paper [Enabling Workflow-Aware scheduling on HPC Systems](https://dl.acm.org/citation.cfm?id=3078604)
+
+- Branch woasslurmsim: Improvements on Slurm simulator to increase time consistency and make it compatible with Slurm 14-03-8-1. Part of ScSF: Scheduling Simulation framework part of the JSSPP'17 paper: [ScSF: A Scheduling Simulation Framework](http://www.gonzalorodrigo.com/assets/JSSPP-simframework.pdf)
+
+Acknowledgements
+-----------------
+
+This work was supported by the U.S. Department of Energy,
+Office of Science, Office of Advanced Scientific Computing Research (ASCR).
+The National Energy Research Scientific Computing Center, a DOE Office of Science
+User Facility, is supported by the Office of Science of the U.S. Department
+of Energy under Contract No. DE-AC02-05CH11231. Financial support has been
+provided in part by the Swedish Government’s strategic effort eSSENCE and the
+Swedish Research Council (VR) under contract number C0590801 (Cloud Control).
+Special thanks to Stephen Trofinoff and Massimo Benini from the Swiss
+National Supercomputing Centre, who shared with us the code base of their
+Slurm Simulator. 
+
+(Rest of readme from original SLURM's)
+
 Slurm Workload Manager
 --------------------------------------------------------
 
